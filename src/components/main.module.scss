@@ -1,0 +1,140 @@
+body {
+  background-color: #f3f7fa;
+}
+
+.main {
+  width: 755px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.header {
+  margin-bottom: 50px;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.options {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+.tabs {
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  font-size: 12px;
+  font-family: Open Sans;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  .tab-one {
+    width: 170px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 1px solid #dfe5ec;
+    border-radius: 5px 0 0 5px;
+  }
+  .tab-two {
+    width: 170px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 1px solid #dfe5ec;
+  }
+}
+.filter {
+  padding: 10px;
+  font-family: Open Sans;
+  width: 235px;
+  height: 270px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  .heading {
+    width: 190px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .checkbox {
+    width: 230px;
+    font-size: 15px;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #f1fcff;
+    }
+  }
+  input {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .checkboxSelected {
+    width: 230px;
+    font-size: 15px;
+    padding: 10px 0;
+    background-color: #f1fcff;
+    border-radius: 5px;
+  }
+}
+.cards {
+  width: 480px;
+}
+.card {
+  padding: 20px;
+  width: 440px;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .date {
+    margin-top: 20px;
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+    span {
+      color: grey;
+      font-size: 12px;
+    }
+  }
+}
+.card-info {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  .price {
+    font-size: 24px;
+    color: #2196f3;
+    font-weight: 600;
+  }
+}
+.tab-one-red {
+  width: 170px;
+  height: 50px;
+  background-color: #2196f3;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 1px solid #dfe5ec;
+  border-radius: 5px;
+  color: #fff;
+}
+.loading {
+  margin: 100px 0 0 200px;
+  width: 100px;
+  position: absolute;
+}
